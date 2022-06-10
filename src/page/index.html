@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../common/common.css">
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <section class="fundo-basico"> <!--Está class esta no common-->
+        
+        <!-- A partir daqui são class's no index.css -->
+        
+        <div class="divprincipal">
+            <div class="consultaefoto">
+            <div class="config-consultaefoto"> 
+                <h1 class="titulo-da-consulta">CONSULTA</h1> 
+                <img src="../assets/image/Polish_20220421_212450343.png" class="logo-user">
+            </div>
+            </div>
+            <!--divs referentes a tela de consulta e a imagem -->
+            
+            
+            <!--a seguir temos as caixas de textos, com as class's:
+                label-texto para as configurac
+            -->
+            <div class="input-configuracao">
+                <div class="caixa-input"><label for="text" class="label-texto">Buscar</label><input type="text" class="input-Grande" placeholder="Pesquisar"></div>
+            </div>
+
+            <div class="input-configuracao">
+                <div class="caixa-input"><label for="text" class="label-texto">Nome</label><input type="text" class="input-Medio"></div>
+                <div class="caixa-input"><label for="text" class="label-texto">Sobrenome</label><input type="text" class="input-Medio"></div> 
+            </div>
+
+            <div class="input-configuracao">
+                <div class="caixa-input"><label for="text" class="label-texto">CPF</label><input type="text" class="input-Pequeno"></div>
+                <div class="caixa-input"><label for="text" class="label-texto">Gênero</label><input type="text" class="input-Pequeno"></div>
+                <div class="caixa-input"><label for="text" class="label-texto">Data de nascimento</label><input type="date" class="input-Pequeno"></div>
+            </div>
+
+            <div class="input-configuracao">
+                <div class="caixa-input"><label for="text" class="label-texto">Altura</label><input type="number" class="input-Pequeno"></div>
+                <div class="caixa-input"><label for="text" class="label-texto">Peso</label><input type="number" class="input-Pequeno"></div>
+                <div class="caixa-input"><label for="text" class="label-texto">Telefone</label><input type="tel" class="input-Pequeno"></div>
+            </div> 
+            
+            <div class="input-configuracao">
+                <div class="caixa-input"><label for="object" class="label-texto">Objetivos</label><textarea name="objetivos" class="caixa-de-texto-media"></textarea></div>
+                <div class="caixa-input"><label for="object" class="label-texto">Observação</label><textarea name="objetivos" class="caixa-de-texto-media"></textarea></div>
+            </div>
+
+            <div class="input-configuracao">
+                <div class="caixa-input"><label for="object" class="label-texto">Treino da semana</label><textarea name="objetivos" class="caixa-de-texto-grande"></textarea></div>
+            </div>
+
+            <div class="input-configuracao">
+                <div class="caixa-input"><label for="text" class="label-texto">Dias da semana</label><input type="text" class="input-Medio"></div>
+                <div class="caixa-input"><label for="text" class="label-texto">Horário</label><input type="time" class="input-Medio"></div> 
+            </div>
+
+            <div class="botoes-posicao">
+                <a class="botao-de-salvar" class="lalabel">SALVAR</a>
+                <a class="botao-de-descartar" class="lalabel">DESCARTAR</a>
+            </div>
+    </section>
+</body>
+</html>
